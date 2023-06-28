@@ -1,0 +1,12 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python train.py 3
+    outs:
+    - path: dvclive/metrics.json
+      md5: 10b4ceaf71a25cf18fafc9253033b200
+      size: 38
+    - path: dvclive/plots
+      md5: f3bfba49e5e01f394bb56e4273ee5a75.dir
+      size: 27
+      nfiles: 1

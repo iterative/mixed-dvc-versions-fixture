@@ -1,0 +1,7 @@
+stages:
+  train:
+    cmd: python train.py ${epochs}
+    metrics:
+    - dvclive/metrics.json
+    plots:
+    - dvclive/plots
