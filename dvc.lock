@@ -1,12 +1,14 @@
 schema: '2.0'
 stages:
   train:
-    cmd: python train.py 3
+    cmd: python train.py 4
     outs:
     - path: dvclive/metrics.json
-      md5: 10b4ceaf71a25cf18fafc9253033b200
+      hash: md5
+      md5: 5948b9426eaa78ed330d6e093629eecb
       size: 38
     - path: dvclive/plots
-      md5: f3bfba49e5e01f394bb56e4273ee5a75.dir
-      size: 27
+      hash: md5
+      md5: 52833f4ac800804c563d212edcfc8bb4.dir
+      size: 31
       nfiles: 1
